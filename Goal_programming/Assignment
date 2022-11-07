@@ -1,0 +1,60 @@
+
+Page
+2
+of 2
+Assignment Instructions: Module 9 - Goal Programming 
+Purpose  The purpose of this assignment is to explore goal programming formulations and solutions. In 
+addition, this will help you master the following module outcomes: 
+• Formulate multi-objective models. 
+• Model multi-objective models. 
+• Categorize the type and importance of goals. 
+ 
+Directions The Research and Development Division of the Emax Corporation has developed three new 
+products. A decision now needs to be made on which mix of these products should be produced. 
+Management wants primary consideration given to three factors: total profit, stability in the 
+workforce, and achieving an increase in the company’s earnings next year from the $75 million 
+achieved this year. In particular, using the units given in the following table, they want to 
+ 
+Maximize Z = P - 6C - 3D, where  
+ 
+P = total (discounted) profit over the life of the new products, 
+C = change (in either direction) in the current level of employment, 
+D = decrease (if any) in next year’s earnings from the current year’s level. 
+ 
+The amount of any increase in earnings does not enter into Z, because management is concerned 
+primarily with just achieving some increase to keep the stockholders happy. (It has mixed 
+feelings about a large increase that then would be difficult to surpass in subsequent years.) 
+ 
+The impact of each of the new products (per unit rate of production) on each of these factors is 
+shown in the following table: 
+ 
+Factor 
+Unit Contribution 
+Goal Units 
+Product: 
+1 2 3 
+Total profit 20 15 25 Maximize Millions of dollars 
+Employment 
+level 
+6 4 5 =50 Hundreds of employees 
+Earnings next 
+year 
+8 7 5 ≥75 Millions of dollars 
+ 
+ 
+Questions 1. Define y1+ and y1-, respectively, as the amount over (if any) and the amount under (if any) 
+the employment level goal. Define y2+ and y2- in the same way for the goal regarding 
+earnings next year. Define x1, x2, and x3 as the production rates of Products 1, 2, and 3, 
+respectively. With these definitions, use the goal programming technique to express y1+, 
+y1- , y2+ and y2-  algebraically in terms of x1, x2, and x3. Also express P in terms of x1, x2, 
+and x3. 
+2. Express management’s objective function in terms of x1, x2, x3, y1+, y1- , y2+ and y2-. 
+3. Formulate and solve the linear programming model. What are your findings? 
+Requirements All due dates are included in the Assignment Schedule.  
+General Submission Instructions  All work must be your own. Copying other people’s work or from the Internet is a form of 
+plagiarism and will be prosecuted as such. 
+ 
+Upload an R markdown file, along with any required .lp files to your git repository. Name your 
+file Username_#.ext, where Username is your Kent State User ID (the part before @), and # is 
+the Assignment number.  
+Provide the link to your git repository for the assignment.  
